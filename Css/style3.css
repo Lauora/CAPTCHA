@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( #f57cc6 , #e08ebe, #eeb7e5);
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    background:#f395cc;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.logo{
+    font-weight: 1000;
+    color: #fff;
+    font-family:'Inspiration', cursive;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 10px;
+    list-style: none;
+}
+
+li a{
+    color: #fff;
+    background:#f57cc6;
+    font-weight: 800;
+    font-size: 20px;
+    border: 2px solid #f395cc;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+li a:hover{
+    background: #fff;
+    color:#f57cc6;
+    transition: 0.4s;
+}
+
+footer{
+    margin-top: 100px;
+    padding-bottom: 50px;
+    position:static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#e08ebe;
+    width: 100%;
+    height: 15vh;
+    color: #fff;
+    font-weight: 700;
+}
+
+  
+  
+  /*Contact Us forms*/
+  
+  input[type=text], input[type=email], input[type=submit] {
+    
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing:border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input[type=text]:focus {
+    border: 3px solid #555;
+  }
+  
+  .form {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    padding-left: 23%;
+  }
+  label {
+    display: inline-block;
+    
+  }
+  input {
+    display: inline-block;
+  }*/
+  
+  /* Contact Style */
+  .alert-success {
+    display: none;
+  }
+  
+  
+  /*Contact Us maps*/
+  
+  .mapouter{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding-left: 25%;
+    height: 10px;
+    width: 10px;
+  }
+  
+
+
+

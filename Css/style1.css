@@ -105,9 +105,9 @@ h2{
 
 
 section{
-    padding-top: 250px;
+    padding-top: 50px;
     width: 100%;
-    height: 600px;
+    height: 800px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -118,14 +118,14 @@ section{
 
 
 h3{
-    margin-bottom: 40px;
+    margin-bottom: 7px;
     font-size: 25px;
     font-weight: 1000;
     text-transform: uppercase;
     font-family: 'Shadows Into Light', cursive;
 }
 
-.Desserts{
+.Category{
     width: 100%;
     height: 500px;
     display: flex;
@@ -135,7 +135,7 @@ h3{
     font-family: 'Shadows Into Light', cursive;
 }
 
-.Cherie{
+.Card{
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
 }
@@ -152,71 +152,7 @@ button{
 
 h5{
     margin-top: 20px;
-    font-family:'Inspiration', bold, cursive;
     font-size:xx-large;
-}
-
-.Cherie button{
-    margin-top: 20px;
-}
-
-.delivery{
-    width: 100%;
-    height: 650px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: 'Shadows Into Light', cursive;
-}
-
-.icon-delivery {
-text-align: center;
-color: #ffffff;
-background: linear-gradient( #f57cc6 , #e08ebe, #eeb7e5);
-border-radius: 10px;
-font-size: xxx-large;
-}
-
-.icon-delivery p{
-   font-size: larger;
-    font-weight: 800;
-}
-
-h6{
-    border-radius: 10px;
-    width: 400px;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    height: 300px;
-    font-size: 25px;
-    font-weight: 800;
-    padding: 10px;
-    
-}
-
-
-.inside{
-    padding-top: 300px;
-    width: 100%;
-    height: 650px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: 'Shadows Into Light', cursive;
-}
-
-.icon-inside {
-text-align: center;
-color: #ffffff;
-background: linear-gradient( #f57cc6 , #e08ebe, #eeb7e5);
-border-radius: 10px;
-font-size: xxx-large;
-}
-
-.icon-inside p{
-   font-size: larger;
-    font-weight: 800;
 }
 
 
@@ -234,59 +170,33 @@ footer{
     font-weight: 700;
 }
 
+/*Calculator*/
 
-/*Delivvery*/
-.form h2 {
+.containerSM {
+    margin-top: 80px;
     position: relative;
-    color: #fff;
-    font-size: 24px; font-weight: 600; 
-    letter-spacing: 1px; 
-    margin-bottom: 40px;
-    }
-    
-    .form h2::before { 
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    width: 80px; 
-    height: 4px;
-    background: #fff;
-    }
-
-    .form .inputBox { 
-        width: 100%; 
-        margin-top: 20px;
-    }
-
-        .form .inputBox input {
-        width: 100%;
-        background: rgba(255, 255, 255,0.1);
-        border: none;
-        outline: none;
-        padding: 10px 20px; border-radius: 35px;
-        border: 1px solid rgba(255,255,255,0.5); 
-        border-right: 1px solid rgba(255, 255, 255,0.2); 
-        border-bottom: 1px solid rgba(255, 255, 255,0.2); 
-        font-size: 16px; 
-        letter-spacing: 1px;
-        color: #fff;
-        box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-        }
-
-
-        .form .inputBox input::placeholder { 
-            color: #fff;
-        }
-
-        .form .inputBox input[type="submit"] {
-            background: #fff;
-            color: #666;
-            max-width: 100px;
-            cursor: pointer;
-            margin-bottom: 20px;
-            font-weight: 600;
-        }
+    height: 100vh;
+    background-color: #f57cc6;
+    width: 100%;
+  }
+  
+  .col1L {
+    float: left;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 150px;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+  }
+  
+  .headerSM {
+    margin-top: 70px;
+    font-family: 'Caveat', cursive;
+    font-size: 80px;
+    text-align: center;
+  }
     
         /* Styles for screens up to 600px (typical for phones) */
 @media (max-width: 600px) {
