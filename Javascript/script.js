@@ -84,7 +84,7 @@ function now(){
     var calculator;
     if(now<0){
         document.getElementById("text_info").innerHTML=
-        "Vendosni vlere pozitive tek inputi now.";
+        "Put a positive value.";
     } else if(now==0){
         document.getElementById("calculator").innerHTML=before;
     } else{

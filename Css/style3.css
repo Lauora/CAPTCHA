@@ -1,32 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     width: 100%;
     height: 100vh;
-    background: linear-gradient( #f57cc6 , #e08ebe, #eeb7e5);
+    background: linear-gradient(#a0dbb3, #70cb9c, #91d8b4);
 }
 
-header{
+header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 120px;
-    background:#f395cc;
+    background: #6dc2a1;
     font-family: 'Shadows Into Light', cursive;
 }
 
-.logo{
+.logo {
     font-weight: 1000;
     color: #fff;
-    font-family:'Inspiration', cursive;
+    font-family: 'Inspiration', cursive;
 }
 
-ul{
+ul {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,42 +35,40 @@ ul{
     list-style: none;
 }
 
-li a{
+li a {
     color: #fff;
-    background:#f57cc6;
+    background: #a0dbb3;
     font-weight: 800;
     font-size: 20px;
-    border: 2px solid #f395cc;
+    border: 2px solid #6dc2a1;
     border-radius: 10px;
     padding: 5px 10px;
 }
 
-li a:hover{
+li a:hover {
     background: #fff;
-    color:#f57cc6;
+    color: #a0dbb3;
     transition: 0.4s;
 }
 
-footer{
+footer {
     margin-top: 100px;
     padding-bottom: 50px;
-    position:static;
+    position: static;
     display: flex;
     justify-content: center;
     align-items: center;
-    background:#e08ebe;
+    background: #70cb9c;
     width: 100%;
     height: 15vh;
     color: #fff;
     font-weight: 700;
 }
 
-  
-  
-  /*Contact Us forms*/
-  
-  input[type=text], input[type=email], input[type=submit] {
-    
+/*Contact Us forms*/
+
+input[type=text], input[type=email], input[type=submit] {
+
     width: 70%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -78,42 +77,38 @@ footer{
     -webkit-transition: 0.5s;
     transition: 0.5s;
     outline: none;
-  }
-  
-  input[type=text]:focus {
+}
+
+input[type=text]:focus {
     border: 3px solid #555;
-  }
-  
-  .form {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.form {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 20px;
     padding-left: 23%;
-  }
-  label {
+}
+
+label {
     display: inline-block;
-    
-  }
-  input {
+}
+
+input {
     display: inline-block;
-  }*/
-  
-  /* Contact Style */
-  .alert-success {
+}
+
+/* Contact Style */
+.alert-success {
     display: none;
-  }
-  
-  
-  /*Contact Us maps*/
-  
-  .mapouter{
+}
+
+/*Contact Us maps*/
+
+.mapouter {
     position: absolute;
     top: 0;
     bottom: 0;
     padding-left: 25%;
     height: 10px;
     width: 10px;
-  }
-  
-
-
-
+}

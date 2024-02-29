@@ -1,32 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     width: 100%;
     height: 100vh;
-    background: linear-gradient( #f57cc6 , #e08ebe, #eeb7e5);
+    background: linear-gradient(#a0dbb3, #70cb9c, #91d8b4);
 }
 
-header{
+header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 120px;
-    background:#f395cc;
+    background: #6dc2a1;
     font-family: 'Shadows Into Light', cursive;
 }
 
-.logo{
+.logo {
     font-weight: 1000;
     color: #fff;
-    font-family:'Inspiration', cursive;
+    font-family: 'Inspiration', cursive;
 }
 
-ul{
+ul {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,41 +35,40 @@ ul{
     list-style: none;
 }
 
-li a{
+li a {
     color: #fff;
-    background:#f57cc6;
+    background: #a0dbb3;
     font-weight: 800;
     font-size: 20px;
-    border: 2px solid #f395cc;
+    border: 2px solid #6dc2a1;
     border-radius: 10px;
     padding: 5px 10px;
 }
 
-li a:hover{
+li a:hover {
     background: #fff;
-    color:#f57cc6;
+    color: #a0dbb3;
     transition: 0.4s;
 }
 
-footer{
+footer {
     margin-top: 100px;
     padding-bottom: 50px;
-    position:static;
+    position: static;
     display: flex;
     justify-content: center;
     align-items: center;
-    background:#e08ebe;
+    background: #70cb9c;
     width: 100%;
     height: 15vh;
     color: #fff;
     font-weight: 700;
 }
 
-
 #captchaBackground {
     height: 100%;
     width: 50%;
-    background: linear-gradient( #f86ec3 , #e28bbe, #ebb0e1);
+    background: linear-gradient(#a0dbb3, #70cb9c, #91d8b4);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,6 +79,7 @@ footer{
     color: #fff;
     margin-top: 40px;
     font-family: 'Shadows Into Light', cursive;
+    text-decoration: white;
 }
 
 #captcha {
@@ -130,7 +131,7 @@ footer{
     font-family: 'Shadows Into Light', cursive;
 }
 
-            /* Styles for screens up to 600px (typical for phones) */
+/* Styles for screens up to 600px (typical for phones) */
 @media (max-width: 600px) {
     body {
         font-size: 16px; /* Decrease font size for smaller screens */
